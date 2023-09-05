@@ -1,0 +1,25 @@
+### aqui muestro todos los discos disponibles
+GET http://localhost:8081/records
+### aqui muestro un disco buscado por nombre
+GET http://localhost:8081/records/542
+### muestro discos filtrados por un artista
+GET http://localhost:8081/records?artist=c.r.o
+### aqui creo un album nuevo
+POST http://localhost:8081/records
+Content-Type: application/json
+
+{
+    "name": "JACKBOYS",
+    "artist":["JACKBOYS"],
+    "yearOut": 2018,
+    "numberSongs": 7,
+    "timePlay": 21.22
+}
+
+### aqui actualizo un disco
+PATCH http://localhost:8081/records/JACKBOYS
+Content-Type: application/json
+
+{
+    "artist": ["JACKBOYS", "Travis Scott"]
+}
