@@ -8,7 +8,7 @@
     "dev:1": "nodemon ./primer-api/pokemon/express.js",
     "dev:2": "nodemon ./rest/app.js",
     "type": "module",
-    "start": "node /rest/app.js"
+    "start": "node rest/app.js"
   },
   "repository": {
     "type": "git",
