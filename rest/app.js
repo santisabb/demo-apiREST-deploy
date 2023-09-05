@@ -67,5 +67,5 @@ app.patch('/records/:name', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('server listening on port http://localhost:8081')
+  console.log(`server listening on port ${port}`)
 })

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:1": "nodemon ./primer-api/pokemon/express.js",
     "dev:2": "nodemon ./rest/app.js",
-    "type": "module"
+    "type": "module",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
